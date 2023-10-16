@@ -63,8 +63,8 @@ Type:Public
 <br />
 4. Then you’ll configure Teams which allows you to make teams with agents from different departments to solve certain issues. 
 Go to the Admin Panel, then Agents, then Teams.  Click add new team on the right.
-Create a Level I Support status= active everything else is default
-Create Level II Support, status=active 
+Create a Level I Support "status= active", everything else onthis page is default.
+Create Level II Support, "status=active " as well.
 
 </p>
 <br />
@@ -79,8 +79,8 @@ Create Level II Support, status=active
 <img src="https://imgur.com/kY6gu50.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-6. Configure Agents next. Head to admin Panel, agents, then add new. Under the account tab, enter a name.Then add an email @osticket.com Create the users’ credentials, dont forget them! Uncheck the boxes “require to change password” or “send password reset email”, hit set.
-Under the access tab select the department system administrators (Or whatever name you chose), and select the role admin. Under extended access select support department so that the AGent can see tickets)** redo
+6. Configure Agents next. Head to admin Panel, agents, then add new. Under the account tab, enter a name.Then add an email @osticket.com Create the users’ credentials, don't forget them! Uncheck the boxes “require to change password” or “send password reset email”, hit set.
+Under the access tab select the department system administrators (Or whatever name you chose), and select the role admin. Under extended access select support department so that the Agent can see tickets)
 Go to the teams (lowest tab next to access) and add level 2 support 
 Click create
  
