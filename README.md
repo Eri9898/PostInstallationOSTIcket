@@ -6,11 +6,6 @@
 <h1>osTicket - Post Installation and Configuration</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Computer)
@@ -29,13 +24,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install C++ Redistributable
 - Configure Permissions and Install OSTicket
 
-<h2>Installation Steps</h2>
+<h2>Configuration Steps</h2>
 
 <p>
 <img src="https://github.com/Eri9898/osticket-prereqs/assets/143845247/ab671f05-1dfe-4c06-a4a0-c781f6bcabee.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-1. To begin you must first create a resource group within Microsoft Azure.  Then create a Windows10 Machine with 2-4 CPUs, make sure it is within the resource group you created. Allow the machine to create a virtual network and subnet.
-
+1. n browser search for the admin login page for os ticket. http://localhost/osTicket/scp/login.php Use the admin credentials you created to login. 
 </p>
 <p>
 
