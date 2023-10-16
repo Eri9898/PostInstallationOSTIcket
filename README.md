@@ -76,11 +76,19 @@ Create Level II Support, status=active
 <br />
 </p>
 <br />
+<img src="https://imgur.com/kY6gu50.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
 6. Configure Agents next. Head to admin Panel, agents, then add new. Under the account tab, enter a name.Then add an email @osticket.com Create the users’ credentials, dont forget them! Uncheck the boxes “require to change password” or “send password reset email”, hit set.
 Under the access tab select the department system administrators (Or whatever name you chose), and select the role admin. Under extended access select support department so that the AGent can see tickets)** redo
 Go to the teams (lowest tab next to access) and add level 2 support 
 Click create
  
+</p>
+<br />
+</p>
+<br />
+<img src="https://imgur.com/WhaOpGP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 7. Now you will add your new SLA plans. Go to admin panel, then manage, then SLA.
@@ -95,7 +103,9 @@ Click create
 <br />
 </p>
 <br />
-<img src="https://imgur.com/yA0dnbM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/KGGPYvj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
 8. Next you will configure help topics. This is a list that will pop up for end users when they want to select what general issue they have when creating their tickets. 
 Click on Admin Panel, then manage then help topics.Click add new.
 -Topic: Whatever issue you want to name ex. Computer issues or password reset
