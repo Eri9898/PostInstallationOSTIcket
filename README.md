@@ -83,7 +83,10 @@ Create Level II Support, "status=active " as well.
 Under the access tab select the department system administrators (Or whatever name you chose), and select the role admin. Under extended access select support department so that the Agent can see tickets)
 Go to the teams (lowest tab next to access) and add level 2 support 
 Click create
- 
+</p>
+<br />
+7. Next you can create users (customers) for osTIcket.
+Click on the Agent Panel on the top right, then Users. Input their name and email "@osticket.com", then click Add New. 
 </p>
 <br />
 </p>
@@ -91,7 +94,7 @@ Click create
 <img src="https://imgur.com/WhaOpGP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-7. Now you will add your new SLA plans. Go to admin panel, then manage, then SLA.
+8. Now you will add your new SLA plans. Go to admin panel, then manage, then SLA.
 	-Enter a name
 -Select schedule, what days of the week
 -Grace period, how soon it must be resolved.
@@ -106,7 +109,7 @@ Click create
 <img src="https://imgur.com/KGGPYvj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-8. Next you will configure help topics. This is a list that will pop up for end users when they want to select what general issue they have when creating their tickets. 
+9. Next you will configure help topics. This is a list that will pop up for end users when they want to select what general issue they have when creating their tickets. 
 Click on Admin Panel, then manage then help topics.Click add new.
 -Topic: Whatever issue you want to name ex. Computer issues or password reset
                        Status=active
