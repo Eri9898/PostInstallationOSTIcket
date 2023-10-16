@@ -27,9 +27,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://github.com/Eri9898/osticket-prereqs/assets/143845247/ab671f05-1dfe-4c06-a4a0-c781f6bcabee.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-1. n browser search for the admin login page for os ticket. http://localhost/osTicket/scp/login.php Use the admin credentials you created to login. 
+<img src="https://imgur.com/XwSqfve.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+1. In the browser search for the admin login page for os ticket. http://localhost/osTicket/scp/login.php Use the admin credentials you created to login. 
 </p>
 <p>
 
@@ -37,7 +38,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-<img src="https://github.com/Eri9898/osticket-prereqs/assets/143845247/261ff49c-4e4f-494c-8d2b-b1eefb5ea4b4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/C1Lk9tK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 2. Connect to the VM via Remote Desktop and within the VM enable IIS. Go to the control panel, then click Programs, control Panel>programs>Programs & Features> Windows Features On/Off, then scroll down and check the IIS box. Make sure the last 2 boxes are checked.
