@@ -1,4 +1,4 @@
-# PostInstallationOSTIcket
+# PostInstallationOSTicket
 <p align="center">
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
@@ -63,7 +63,7 @@ Type:Public
 <br />
 4. Then you’ll configure Teams which allows you to make teams with agents from different departments to solve certain issues. 
 Go to the Admin Panel, then Agents, then Teams.  Click add new team on the right.
-Create a Level I Support "status= active", everything else onthis page is default.
+Create a Level I Support "status= active", everything else on this page is default.
 Create Level II Support, "status=active " as well.
 
 </p>
@@ -85,7 +85,7 @@ Go to the teams (lowest tab next to access) and add level 2 support
 Click create
 </p>
 <br />
-7. Next you can create users (customers) for osTIcket.
+7. Next you can create users (customers) for osTicket.
 Click on the Agent Panel on the top right, then Users. Input their name and email "@osticket.com", then click Add New. 
 </p>
 <br />
