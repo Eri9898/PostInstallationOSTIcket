@@ -110,8 +110,9 @@ Click on the Agent Panel on the top right, then Users. Input their name and emai
 </p>
 <br />
 9. Next you will configure help topics. This is a list that will pop up for end users when they want to select what general issue they have when creating their tickets. 
-Click on Admin Panel, then manage then help topics.Click add new.
+Click on Admin Panel> manage>help topics 
+-Click add new.
 -Topic: Whatever issue you want to name ex. Computer issues or password reset
-                       Status=active
-                       Parent topic= top level 
+-Status=active
+-Parent topic= top level 
 
