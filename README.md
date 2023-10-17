@@ -30,7 +30,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <img src="https://imgur.com/XwSqfve.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-1. In the browser search for the admin login page for os ticket. http://localhost/osTicket/scp/login.php Use the admin credentials you created to login. Please note, this website can only be accessed if IIS is installed.
+1. In the navigation bar of your browser go to the admin login page for os ticket. http://localhost/osTicket/scp/login.php Use the admin credentials you created to login. Please note, this website can only be accessed if IIS is installed.
 </p>
 <p>
 
