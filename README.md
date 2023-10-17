@@ -43,9 +43,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://imgur.com/C1Lk9tK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-2. So first you will be creating roles aka permissions for users. Click on the admin panel (when you click on admin panel it will then display as agent on the top right, you’re still on the admin page unless you click on agent panel then it will switch), on the top right corner of the page, then click agents,  then below that click roles. On the top right corner of this page click add new role.
-
-After you click roles you will be prompted to create a name for the role, name it “Admin” then on the tab next to it click on permissions. Click all permissions for this lab (usually in real life roles should have the least amount of access necessary to do their job, but for the lab’s sake just check everything)  click add role after choosing permissions.
+2. So first you will be creating roles aka permissions for users. Click on the admin panel,>agents>roles.
+</p>
+On the top right corner of this page click add new role.
+</p>
+ (when you click on admin panel it will then display as agent on the top right, you’re still on the admin page unless you click on agent panel then it will switch.)
+</p>	
+After you click roles you will be prompted to create a name for the role, name it “Admin” then on the tab next to it click on permissions.
+</p>
+Click all permissions for this lab (usually in real life roles should have the least amount of access necessary to do their job, but for the lab’s sake just check everything)  click add role after choosing permissions.
 </p>
 <br />
 </p>
@@ -53,17 +59,30 @@ After you click roles you will be prompted to create a name for the role, name i
 <img src="https://imgur.com/GFaPxaf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-3. Next you will configure departments in osTicket. Click the admin Panel, then agents and then go to  Departments. Within the admin panel click add new department in upper right.  (And create with the default SLA for now). Create a new top level department called System Administrators (or whatever you wish for your lab).
+3. Next you will configure departments in osTicket. Click the admin Panel>agents>Departments. 
+</p>
+Within the admin panel click add new department in upper right.  
+</p>
+(And create with the default SLA for now). 
+</p>
+Create a new top level department called System Administrators (or whatever you wish for your lab).
+</p>
 Name: 
+</p>
 Status: Active
-SLA: Default for now
+</p>
+SLA: Default (for now)
+</p>
 Type:Public
 
 </p>
 <br />
 4. Then you’ll configure Teams which allows you to make teams with agents from different departments to solve certain issues. 
-Go to the Admin Panel, then Agents, then Teams.  Click add new team on the right.
+</p>
+Go to the Admin Panel>Teams.  Click add new team on the right.
+</p>
 Create a Level I Support "status= active", everything else on this page is default.
+</p>
 Create Level II Support, "status=active " as well.
 
 </p>
@@ -71,7 +90,11 @@ Create Level II Support, "status=active " as well.
 </p>
 <br />
 <img src="https://imgur.com/LVNYJG2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-5. Next you must allow end users to be able to anonymously create tickets without login info. So to do that head to admin Panel then settings, then user and then settings again. Uncheck Registration Required box. 
+5. Next you must allow end users to be able to anonymously create tickets without login info. 
+</p>
+So to do that head to admin Panel>settings>user>settings
+</p>
+Uncheck Registration Required box. 
 </p>
 <br />
 </p>
@@ -79,14 +102,25 @@ Create Level II Support, "status=active " as well.
 <img src="https://imgur.com/kY6gu50.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-6. Configure Agents next. Head to admin Panel, agents, then add new. Under the account tab, enter a name.Then add an email @osticket.com Create the users’ credentials, don't forget them! Uncheck the boxes “require to change password” or “send password reset email”, hit set.
-Under the access tab select the department system administrators (Or whatever name you chose), and select the role admin. Under extended access select support department so that the Agent can see tickets)
+6. Next you'll configure Agents next. Admin Panel,>agents, and click add new on this page. 
+</p>
+Under the account tab, enter a name.Then add an email @osticket.com 
+</p>
+Create the users’ credentials, don't forget them!
+</p>
+Uncheck the boxes “require to change password” or “send password reset email”, hit set.
+</p>
+Under the access tab select the department system administrators (Or whatever name you chose), and select the role admin. 
+</p>
+Under extended access select support department so that the Agent can see tickets)
+</p>
 Go to the teams (lowest tab next to access) and add level 2 support 
 Click create
 </p>
 <br />
 7. Next you can create users (customers) for osTicket.
-Click on the Agent Panel on the top right, then Users. Input their name and email "@osticket.com", then click Add New. 
+</p>
+Click on the Agent Panel>Users. On this page nput their name and email "@osticket.com", then click Add New. 
 </p>
 <br />
 </p>
@@ -94,12 +128,19 @@ Click on the Agent Panel on the top right, then Users. Input their name and emai
 <img src="https://imgur.com/WhaOpGP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-8. Now you will add your new SLA plans. Go to admin panel, then manage, then SLA.
-	-Enter a name
+8. Now you will add your new SLA plans. Go to admin panel> manage> SLA.
+</p>
+-Enter a name
+</p>
 -Select schedule, what days of the week
+</p>
 -Grace period, how soon it must be resolved.
+</p>
 -add plan
--Now you can go back to departments (see step 3 for how to get to departments if needed). Click on ea department and then from the SLA tab you can expand the list and choose from the SLAs you created. You do not need to select anything for schedule.
+</p>
+-Now you can go back to departments (see step 3 for how to get to departments if needed). 
+</p>
+Click on ea department and then from the SLA tab you can expand the list and choose from the SLAs you created. You do not need to select anything for schedule.
 
 
 </p>
