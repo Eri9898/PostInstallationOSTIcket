@@ -161,3 +161,4 @@ Click on Admin Panel> manage> help topics
 </p>
 -Parent topic= top level 
 </p>
+10. You are now done configuring the Admin roles, Agents roles, End User accounts, SLAs, and Help Topics. Now osTicket can be utilized, which will be shown in hte next lab!
