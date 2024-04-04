@@ -120,7 +120,7 @@ Click create
 <br />
 7. Next you can create users (customers) for osTicket.
 </p>
-Click on the Agent Panel>Users. On this page nput their name and email "@osticket.com", then click Add New. 
+Click on the Agent Panel>Users. On this page input their name and email "@osticket.com", then click Add New. 
 </p>
 <br />
 </p>
