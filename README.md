@@ -47,11 +47,9 @@ This tutorial outlines the post-installation and configuration of the open-sourc
 </p>
 On the top right corner of this page click add new role.
 </p>
- (when you click on admin panel it will then display as agent on the top right, you’re still on the admin page unless you click on agent panel then it will switch.)
-</p>	
 After you click roles you will be prompted to create a name for the role, name it “Admin” then on the tab next to it click on permissions.
 </p>
-Click all permissions for this lab (usually in real life roles should have the least amount of access necessary to do their job, but for the lab’s sake just check everything)  click add role after choosing permissions.
+Click all permissions (usually in real life roles should have the least amount of access necessary to do their job)  click add role after choosing permissions.
 </p>
 <br />
 </p>
@@ -65,7 +63,7 @@ Within the admin panel click add new department in upper right.
 </p>
 (And create with the default SLA for now). 
 </p>
-Create a new top level department called System Administrators (or whatever you wish for your lab).
+Create a new top level department called System Administrators (or whatever you wish).
 </p>
 Name: 
 </p>
@@ -102,7 +100,7 @@ Uncheck Registration Required box.
 <img src="https://imgur.com/kY6gu50.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-6. Next you'll configure Agents next. Admin Panel,>agents, and click add new on this page. 
+6. Next you'll configure Agents next. Admin Panel>agents, and click add new on this page. 
 </p>
 Under the account tab, enter a name.Then add an email @osticket.com 
 </p>
