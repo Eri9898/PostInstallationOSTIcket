@@ -126,7 +126,7 @@ Stay on the admin panel> Agents> create new Agents.  On this page input their na
 <img src="https://imgur.com/WhaOpGP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-8. Now you will add your new SLA plans. Go to admin panel> manage> SLA.
+8. Now you will add your new SLA plans. Go to admin panel> manage> SLA> Add new
 </p>
 -Enter a name
 </p>
@@ -149,7 +149,7 @@ Click on ea department and then from the SLA tab you can expand the list and cho
 </p>
 <br />
 9. Next you will configure help topics. This is a list that will pop up for end users when they want to select what general issue they have when creating their tickets. 
-Click on Admin Panel> manage> help topics 
+Click on Manage> Help topics 
 </p>
 -Click add new
 </p>
@@ -159,4 +159,4 @@ Click on Admin Panel> manage> help topics
 </p>
 -Parent topic= top level 
 </p>
-10. You are now done configuring the Admin roles, Agents roles, End User accounts, SLAs, and Help Topics. Now osTicket can be utilized, which will be shown in hte next lab!
+10. You are now done configuring the Admin roles, Agents roles, End User accounts, SLAs, and Help Topics. Now osTicket can be utilized, which will be shown in the next lab!
