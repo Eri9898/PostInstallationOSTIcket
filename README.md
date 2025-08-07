@@ -116,9 +116,9 @@ Go to the teams (lowest tab next to access) and add level 2 support
 Click create
 </p>
 <br />
-7. Next you can create users (customers) for osTicket.
+7. Next you can create non-admin users for osTicket.
 </p>
-Click on the Agent Panel>Users. On this page input their name and email "@osticket.com", then click Add New. 
+Stay on the admin panel> Agents> create new Agents.  On this page input their name and email "@osticket.com". Do not check the admin box. Go to the access tab and give your non-admins permisions. Give them departments and for Role it will be "limited access".
 </p>
 <br />
 </p>
