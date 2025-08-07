@@ -4,13 +4,13 @@
 </p>
 
 <h1>osTicket - Post Installation and Configuration</h1>
-This tutorial outlines the post-installation and configuration of the open-source help desk ticketing system osTicket.<br />
+This tutorial covers the post-installation setup of the open-source help desk ticketing system osTicket, including role creation, department organization, SLA configuration, and user/agent setup for a functional ticketing workflow.<br />
 
-<h2>Environments and Technologies Used</h2>
+<h2>Environments and Technologies </h2>
 
-- Microsoft Azure (Virtual Machines/Computer)
-- Remote Desktop
-- Internet Information Services (IIS)
+- Microsoft Azure – Virtual Machine hosting
+- Remote Desktop – VM access
+- Internet Information Services (IIS) – Web hosting for osTicket
 
 <h2>Operating Systems Used </h2>
 
@@ -18,11 +18,11 @@ This tutorial outlines the post-installation and configuration of the open-sourc
 
 <h2>List of Prerequisites</h2>
 
-- Enable IIS
-- Install Web Platform Installer
-- Install My SQL (Set up Username and Passwoord)
-- Install C++ Redistributable
-- Configure Permissions and Install OSTicket
+- IIS Installed & Enabled
+- Web Platform Installer Installed
+- MySQL Installed (with username/password configured)
+- C++ Redistributable Installed
+- osTicket Installed & Permissions Configured
 
 <h2>Post Installation and Configuration Steps</h2>
 
@@ -30,7 +30,7 @@ This tutorial outlines the post-installation and configuration of the open-sourc
 
 <img src="https://imgur.com/XwSqfve.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-1. In the navigation bar of your browser enter the admin login page for os ticket. http://localhost/osTicket/scp/login.php Use the admin credentials you created to login.    Please note, this website can only be accessed if IIS is installed.
+1. Navigate to the admin login page for os ticket. http://localhost/osTicket/scp/login.php Use the admin credentials you created to login. Please note, this website can only be accessed if IIS is installed.
 </p>
 <p>
 
