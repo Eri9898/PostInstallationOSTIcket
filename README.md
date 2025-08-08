@@ -22,7 +22,7 @@ This tutorial covers the post-installation setup of the open-source help desk ti
 - Web Platform Installer Installed
 - MySQL Installed (with username/password configured)
 - C++ Redistributable Installed
-- osTicket Installed & Permissions Configured
+- osTicket Installed & Congig File Permissions Set
 
 <h2>Post Installation and Configuration Steps</h2>
 
@@ -30,7 +30,7 @@ This tutorial covers the post-installation setup of the open-source help desk ti
 
 <img src="https://imgur.com/XwSqfve.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-1. Navigate to the admin login page for os ticket. http://localhost/osTicket/scp/login.php Use the admin credentials you created to login. Please note, this website can only be accessed if IIS is installed.
+1. Navigate to the admin login page for osTicket. http://localhost/osTicket/scp/login.php Use the admin credentials you created to login. Please note, this website can only be accessed if IIS is installed.
 </p>
 <p>
 
@@ -43,7 +43,7 @@ This tutorial covers the post-installation setup of the open-source help desk ti
 <img src="https://imgur.com/C1Lk9tK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-2. So first you will be creating roles aka permissions for users. Click on the admin panel,>agents>roles.
+2. So first you will be creating roles aka permissions for users. Click on the admin panel>agents>roles.
 </p>
 On the top right corner of this page click add new role.
 </p>
@@ -57,7 +57,7 @@ Click all permissions (usually in real life roles should have the least amount o
 <img src="https://imgur.com/GFaPxaf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-3. Next you will configure departments in osTicket. Click the admin Panel>agents>Departments. 
+3. Next you will configure departments in osTicket. Click the admin Panel>Agents>Departments. 
 </p>
 Within the admin panel click add new department in upper right.  
 </p>
@@ -75,7 +75,7 @@ Type:Public
 
 </p>
 <br />
-4. Then you’ll configure Teams which allows you to make teams with agents from different departments to solve certain issues. 
+4. Then you’ll configure Teams which allows you to make teams with agents from different departments. 
 </p>
 Go to the Admin Panel>Teams.  Click add new team on the right.
 </p>
@@ -88,9 +88,9 @@ Create Level II Support, "status=active " as well.
 </p>
 <br />
 <img src="https://imgur.com/LVNYJG2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-5. Next you must allow end users to be able to anonymously create tickets without login info. 
+5. Next you must allow end users to be able to create tickets without login info. 
 </p>
-So to do that head to admin Panel>settings>user>settings
+So to do that head to admin Panel>Settings>User>Settings
 </p>
 Uncheck Registration Required box. 
 </p>
@@ -100,7 +100,7 @@ Uncheck Registration Required box.
 <img src="https://imgur.com/kY6gu50.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-6. Next you'll configure Agents next. Admin Panel>agents, and click add new on this page. 
+6. Next you'll configure Agents next. Admin Panel>Agents, and click add new on this page. 
 </p>
 Under the account tab, enter a name.Then add an email @osticket.com 
 </p>
@@ -110,14 +110,14 @@ Uncheck the boxes “require to change password” or “send password reset ema
 </p>
 Under the access tab select the department system administrators (Or whatever name you chose), and select the role admin. 
 </p>
-Under extended access select support department so that the Agent can see tickets)
+Under extended access select support department so that the Agent can see tickets
 </p>
 Go to the teams (lowest tab next to access) and add level 2 support 
 Click create
 </p>
 <br />
 7. Next you can create non-admin users for osTicket.
-Stay on the admin panel> Agents> create new Agents.  On this page input their name and email "@osticket.com". Do not check the admin box. Go to the access tab and give your non-admins permisions. Give them departments and for Role it will be "limited access".
+Stay on the Admin panel> Agents> create new Agents.  On this page input their name and email "@osticket.com". Do not check the admin box. Go to the access tab and give your non-admins permisions. Give them departments and for Role it will be "limited access".
 </p>
 <br />
 </p>
@@ -125,7 +125,7 @@ Stay on the admin panel> Agents> create new Agents.  On this page input their na
 <img src="https://imgur.com/WhaOpGP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-8. Now you will add your new SLA plans. Go to admin panel> manage> SLA> Add new
+8. Now you will add your new SLA plans. Go to Admin panel> Manage> SLA> add new
 </p>
 -Enter a name
 </p>
