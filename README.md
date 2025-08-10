@@ -22,7 +22,7 @@ This tutorial covers the post-installation setup of the open-source help desk ti
 - Web Platform Installer Installed
 - MySQL Installed (with username/password configured)
 - C++ Redistributable Installed
-- osTicket Installed & Congig File Permissions Set
+- osTicket Installed & Config File Permissions Set
 
 <h2>Post Installation and Configuration Steps</h2>
 
