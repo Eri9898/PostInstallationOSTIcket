@@ -30,7 +30,7 @@ This tutorial covers the post-installation setup of the open-source help desk ti
 
 <img src="https://imgur.com/XwSqfve.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-1. Navigate to the admin login page for osTicket. http://localhost/osTicket/scp/login.php Use the admin credentials you created to login. Please note, this website can only be accessed if IIS is installed.
+1. Navigate to the admin login page for osTicket. http://localhost/osTicket/scp/login.php (For secure management, it’s critical to serve the osTicket admin portal over HTTPS to encrypt credentials and data in transit.) Use the admin credentials you created to login. Please note, this website can only be accessed if IIS is installed. 
 </p>
 <p>
 
@@ -162,5 +162,6 @@ Click on Manage> Help topics
 </p>
 10. You are now done configuring the Admin roles, Agents roles, End User accounts, SLAs, and Help Topics. 
 </p>
+<br />
 11. As mentioned previously ock down ost-config.php and its folder after installation with least privilege (remove write for everyone except the service account). Regularly patch Windows, IIS, PHP, MySQL, and osTicket itself. Monitor IIS logs and MySQL logs for suspicious activity consider using IDS (Snort)/IPS or SIEM. 
 Now osTicket can be utilized, which will be shown in the next lab!
