@@ -49,7 +49,7 @@ On the top right corner of this page click add new role.
 </p>
 After you click roles you will be prompted to create a name for the role, name it “Admin” then on the tab next to it click on permissions.
 </p>
-Click all permissions (usually in real life roles should have the least amount of access necessary to do their job)  click add role after choosing permissions.
+Click all permissions (in real life roles should have the least amount of access necessary to do their job)  click add role after choosing permissions.
 </p>
 <br />
 </p>
@@ -63,7 +63,7 @@ Within the admin panel click add new department in upper right.
 </p>
 (And create with the default SLA for now). 
 </p>
-Create a new top level department called System Administrators (or whatever you wish).
+Create a new top level department called System Administrators. This separation limits ticket visibility and privileges by department, reducing insider threat risk.
 </p>
 Name: 
 </p>
@@ -94,6 +94,8 @@ So to do that head to admin Panel>Settings>User>Settings
 </p>
 Uncheck Registration Required box. 
 </p>
+open ticket submission reduces friction but keep monitoring for spam or abuse.
+</p>
 <br />
 </p>
 <br />
@@ -104,7 +106,7 @@ Uncheck Registration Required box.
 </p>
 Under the account tab, enter a name.Then add an email @osticket.com 
 </p>
-Create the users’ credentials, don't forget them!
+Create the users’ credentials, don't forget them! Use strong password policies and consider enforcing multi-factor authentication (if supported) to lock down credentials.
 </p>
 Uncheck the boxes “require to change password” or “send password reset email”, hit set.
 </p>
@@ -152,10 +154,13 @@ Click on Manage> Help topics
 </p>
 -Click add new
 </p>
--Topic: Whatever issue you want to name ex. Computer issues or password reset
+-Topic: Most common issues ex. Computer issues or password reset
 </p>
 -Status=active
 </p>
 -Parent topic= top level 
 </p>
-10. You are now done configuring the Admin roles, Agents roles, End User accounts, SLAs, and Help Topics. Now osTicket can be utilized, which will be shown in the next lab!
+10. You are now done configuring the Admin roles, Agents roles, End User accounts, SLAs, and Help Topics. 
+</p>
+11. As mentioned previously ock down ost-config.php and its folder after installation with least privilege (remove write for everyone except the service account). Regularly patch Windows, IIS, PHP, MySQL, and osTicket itself. Monitor IIS logs and MySQL logs for suspicious activity consider using IDS (Snort)/IPS or SIEM. 
+Now osTicket can be utilized, which will be shown in the next lab!
