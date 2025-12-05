@@ -161,5 +161,5 @@ Click on Manage> Help topics
 10. You are now done configuring the Admin roles, Agents roles, End User accounts, SLAs, and Help Topics. 
 </p>
 <br />
-11. As mentioned previously ock down ost-config.php and its folder after installation with least privilege (remove write for everyone except the service account). Regularly patch Windows, IIS, PHP, MySQL, and osTicket itself. Monitor IIS logs and MySQL logs for suspicious activity consider using IDS (Snort)/IPS or SIEM. 
+11. As mentioned previously, lock down ost-config.php and its folder after installation with least privilege (remove write for everyone except the service account). Regularly patch Windows, IIS, PHP, MySQL, and osTicket itself. Monitor IIS logs and MySQL logs for suspicious activity consider using IDS (Snort)/IPS or SIEM. 
 Now osTicket can be utilized, which will be shown in the next lab!
