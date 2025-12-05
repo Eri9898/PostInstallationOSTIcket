@@ -106,9 +106,7 @@ open ticket submission reduces friction but keep monitoring for spam or abuse.
 </p>
 Under the account tab, enter a name.Then add an email @osticket.com 
 </p>
-Create the users’ credentials, don't forget them! Use strong password policies and consider enforcing multi-factor authentication (if supported) to lock down credentials.
-</p>
-Uncheck the boxes “require to change password” or “send password reset email”, hit set.
+Create the users’ credentials, don't forget them! Use strong password policies (like complexity requirements and password expiration) and consider enforcing multi-factor authentication (if supported) to lock down credentials.
 </p>
 Under the access tab select the department system administrators (Or whatever name you chose), and select the role admin. 
 </p>
